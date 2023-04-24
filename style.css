@@ -40,7 +40,6 @@ nav{
 
 
 
-
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -90,9 +89,8 @@ nav ul li a:hover::after{
 }
 
 
-
 .header-text{
-    margin-top: 20%;
+    margin-top: 5%;
     font-size: 25px;
 }
 
