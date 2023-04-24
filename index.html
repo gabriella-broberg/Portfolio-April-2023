@@ -12,68 +12,96 @@
 <body>
     
     <div id="header">
+
+        
         <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
 
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+    
+
+                <div class="social-icons-top">
+                    <a href="https://github.com/gabriella-broberg"><i class="fa-brands fa-github"></i></a>
+    
+                    <a href="https://www.linkedin.com/in/gabriella-broberg/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </nav>
+
+          
             <div class="header-text">
-                <p>Front-End Developer</p>
-                <h1>Hi, I'm <span>Gabriella</span> Broberg<br> from Stockholm, Sweden.</h1>
+                <p>Portfolio: Gabriella Broberg</p>
+                <h1>Front-End <br>Developer</i></h1>
+                <h3>+ <span id="swap-words">tech support</span></h3>
             </div>
         </div>
+
+
+        <div id="profile-photo">
+            <img class="profile-img" src="images/profil1A.png" alt="profile picture">
+
+        </div>
+       
+
+      
     </div>
 <!-------about------>   
 
 <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
-                    <img src="images/profil1.jpg">
-                </div>
+                 <!-----  <div class="about-col-1">
+              <img src="images/profil1.jpg" alt="smiling face">
+             
+                  </div>  --->
+
+             
+
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur odio officiis ipsa dolorem at cumque praesentium voluptatibus est aut corrupti eveniet, 
-                        sunt officia doloremque eum esse ducimus, quisquam provident dolor.</p>
+
+                    <p>With my solid tech support background and expertise in logos and typography, I bring a unique perspective and valuable skills to create visually appealing and user-friendly web-apps.
+                         <br><br>Through my attention to detail, problem-solving abilities, customer-centric approach, and effective communication, I am well-equipped to excel as a front-end developer and deliver outstanding results for clients.</p>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('softskills')">Soft Skills</p>
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Web Development</span><br>Web app Development</li>
-                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                        <li><span>Logo Designer</span><br>Designing logos for small businesses</li>
+                        <li><span>Web Development</span><br>HTML5, CSS3, JavaScript </li>
+                        <li><span>Code Editors</span><br>Visual Studio Code</li>
+                        <li><span>Version Control</span><br>Git, GitHub</li>
+                        <li><span>Design Tools</span><br>Adobe Illustrator, Adobe Photoshop, Figma</li>
+                        <li><span>Other Tools and Systems</span><br>Windows, MacOS, Google Suite, O365, Slack, Jira, Trello, Miro</li>
+                        <li><span>Bonus Skills</span><br>Graphic Design, Troubleshooting, Project Management, Installations, etc.</li>
+
                        
 
                     </ul>
                 </div>
-                <div class="tab-contents" id="experience">
+           
+                <div class="tab-contents" id="softskills">
                     <ul>
-                        <li><span>2018 - Current</span><br>Canoah Art & Design</li>
-                        <li><span>2020 - 2023</span><br>IT Engineer & Project Lead at Kry</li>
-                        <li><span>2018-2020</span><br>It Consultant at Coca Cola</li>
-                        <li><span>2018</span><br>It Consultant at H&M</li>
-                        <li><span>2017-2018</span><br>Clinic Coordinator at Derma Medical</li>
+                        <li><span>Languages</span><br>Swedish, English, Portuguese, German</li>
+                        <li><span>Personal Qualities</span><br>Problem solving, Customer-centric approach, Cross-functional teamwork  </li>
+
+                        <li><span>Collaboration and Communication</span><br>My experience in tech support and logo design has strengthened my communication skills, both written and verbal, allowing me to effectively understand client requirements, 
+                            communicate project updates, and work seamlessly with cross-functional teams. This enables me to deliver successful front-end projects that meet client expectations. </li>
+
 
                     </ul>
                 </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2022</span><br>Project Management at Canea</li>
-                        <li><span>2010 - 2014</span><br>Bachelors Degree, Latin American Studies at University of Stockholm</li>
-                        <li><span>2014</span><br>BIPAS at Udayana University, Indonesia</li>
-                    </ul>
+
+                <div class="tab-contents" id="experience">
+                   <ul>
+                    <li><span>2018 - Current</span><br>Canoah Art & Design, Self-Employed</li>
+                    <li><span>2020 - 2023</span><br>IT Engineer & Project Lead at Kry</li>
+                    <li><span>2018-2020</span><br>It Consultant at Coca Cola</li>
+                    <li><span>2018</span><br>It Consultant at H&M</li>
+                    <li><span>2017-2018</span><br>Clinic Coordinator at Derma Medical</li>
+                   </ul>
+                 
                 </div>
                 </div>
 
@@ -81,7 +109,46 @@
         </div>
     </div>
 
+     <!--------------Portfolio--------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Featured <span>Web Projects</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Upcomming! </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Upcomming! </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Upcomming! </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     <!------services------>
+
+    <!-----------------HIDE-
     <div id="services">
         <div class="container">
         <h1 class="sub-title">My Services </h1>
@@ -113,46 +180,16 @@
 
             </div>
         </div>
+        ------------>
     </div>
 
 
-    <!--------------Portfolio--------------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">Featured Projects</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.jpg">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-2.jpg">
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.jpg">
-                <div class="layer">
-                    <h3>Weather App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="btn">See more</a>
-    </div>
-</div>
-
-
+   
 
 <!-- -----contact------ -->
+
+
+<!-- ------------HIDE
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -176,6 +213,9 @@
             </div>
         </div>
     </div>
+    ----------- -->
+
+    <!-- -------copyright------- -->
     <div class="copyright">
         <p><i class="fa-regular fa-copyright"></i> Gabriella Broberg 2023</p>
     </div>
@@ -212,16 +252,19 @@
     </script>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxpdEt0GpiGo7f1sCisQh5HsYqnniEHRDfA_aPsXUtl2k6Vw3j6lP7C4GVQhOFo3A4H/exec'
-    const form = document.forms['submit-to-google-sheet']
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    //FUNCTION FOR SWAPPING WORDS
+const words = ['Tech Support', 'Logo Design Enthusiast'];
+
+let index = 0;
+
+const swapWords = () => {
+  document.getElementById("swap-words").innerHTML = words[index++ % words.length]
+}
+
+//Set interval of the swapping
+setInterval(swapWords, 1050)
+
+</script>
 
 </body>
 </html>
