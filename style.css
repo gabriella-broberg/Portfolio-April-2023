@@ -111,11 +111,10 @@ nav ul li a:hover::after{
 
 
 #profile-photo {
-    width: 250px; 
+    width: 310px; 
     position: absolute; 
-    margin-right: 180px;
     top: 30%;
-    right: 20%;
+    right: 25%;
     
 
   }
@@ -144,17 +143,18 @@ nav ul li a:hover::after{
 }
 
 .about-col-1{
-    flex-basis: 40%;
+    flex-basis: 50%;
+    margin-top: 80px;
 }
 
-.about-col-1 img{
-    width: 100%;
-    border-radius: 50%;
+.about-col-1 p{
+    color: #fffffe;
 }
+
 
 .about-col-2{
-    margin-top: -10px;
-    flex-basis: 60%;
+    flex-basis: 45%;
+    height: 455px;
     
 }
 
@@ -402,29 +402,8 @@ flex-basis: 35%;
     color: #232946;
 }
 
-.contact-right form{
-    width: 100%;
-}
 
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #b8c1ec;
-    padding: 15px;
-    margin: 15px 0;
-    color: #232946;
-    font-size: 18px;
-    border-radius: 6px;
 
-}
-
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 15px;
-    cursor: pointer;
-}
 
 .copyright{
     width: 100%;
@@ -458,7 +437,7 @@ form .btn2{
     }
     #profile-photo{
         margin-top: -50%;
-        margin-right: -30px;
+        margin-right: -10%;
         top: 330px;
         width: 290px;
        
@@ -467,8 +446,15 @@ form .btn2{
     .sub-title{
         font-size: 40px;
     }
+
+    .about-col-1{
+        margin-top: -50px;
+    }
+
+
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+        
     }
 
   
