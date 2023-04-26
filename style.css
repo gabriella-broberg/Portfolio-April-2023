@@ -312,11 +312,16 @@
     font-weight: 500;
     margin: 20px;
     font-size: 19px;
+    color: #232946;
   }
   
+  .layer p{
+    color: #232946;
+  }
+
   .layer a{
     margin-top: 20px;
-    color: #b8c1ec;
+    color: #232946;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -423,10 +428,13 @@
     
     }
 
+
   
     p {
         font-size: 16px;
       }
+
+
     
   .copyright{
     font-size: 14px;
@@ -441,7 +449,8 @@
 }
 
 .sub-title {
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
 }
 
 .tab-contents.active-tab ul li{
