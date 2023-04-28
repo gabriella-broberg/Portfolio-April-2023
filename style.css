@@ -168,7 +168,7 @@ main {
 }
 
 .about, .container{
-  padding: 10px 9%;
+  padding: 10px 10%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -461,7 +461,7 @@ footer{
 }
 
 /* STYLING FOR MEDIA QUERY 1 BIG PHONE */
-@media (min-width: 375px) and (max-width: 666px) {
+@media (min-width: 360px) and (max-width: 666px) {
 
 
 .header-info {
