@@ -3,14 +3,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 body {
-  margin: 0;
+  font-family: 'Glacial Indifference', 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: #232946;  
   color: #b8c1ec;
+  margin: 0;
 }
 
 h1 {
@@ -461,7 +461,7 @@ footer{
 }
 
 /* STYLING FOR MEDIA QUERY 1 BIG PHONE */
-@media (min-width: 360px) and (max-width: 666px) {
+@media (max-width: 666px) {
 
 
 .header-info {
